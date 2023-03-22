@@ -1,0 +1,76 @@
+:root {
+  --color1: #76c5f0;
+  --color2: #fffb00;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, * ::before, *::after {
+  box-sizing: inherit;
+  font-size: 62.5;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--color1);
+  background-image: url(/img/fondo.png);
+  background-position: right 50vh bottom 50vh, left 50vh top 50vh;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta {
+  background-color: rgb(255, 251, 0);
+  width: 450px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.tarjeta-header {
+  width: 100%;
+  display: block;
+}
+.tarjeta-body {
+  background-color: rgb(3, 154, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid black;
+}
+.tarjeta-body-contentimg {
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 1px 10px 30px #0077ff;
+  margin-top: -108px;
+}
+.tarjeta-body-contentimg-img {
+  padding: 18px;
+}
+.tarjeta-body-title {
+  margin-top: -0.098rem;
+  font-size: 3rem;
+}
+.tarjeta-body-title span {
+  color: var(--color2);
+}
+.tarjeta-body-text {
+  color: #fffb02;
+  margin-top: -20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.tarjeta-footer {
+  background-color: rgb(145, 179, 196);
+  display: flex;
+  justify-content: space-around;
+}
+.tarjeta-footer-deporte {
+  text-align: center;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=style.css.map */
